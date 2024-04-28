@@ -10,6 +10,7 @@ header {
     margin-top: 20px;
 }
 h1 a {
+    text-align: center;
     color: inherit;
     text-decoration: none;
     border: 1px solid #ccc;
@@ -21,7 +22,7 @@ h1 a {
     background-color: #fff;
     transition: background-color 0.3s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+    width: 95%
     
 }
 
@@ -103,4 +104,12 @@ a {
     display: block; 
     padding: 5px; 
     
+}
+
+.specialimg {
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
