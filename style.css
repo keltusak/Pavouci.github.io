@@ -12,10 +12,21 @@ header {
 h1 a {
     color: inherit;
     text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #fff;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100vw
 }
 
 h1 a:hover {
-    color: rgb(28, 194, 28);
+    color: white;
+    background-color: rgb(28, 194, 28);
 }
 
 .card-container {
