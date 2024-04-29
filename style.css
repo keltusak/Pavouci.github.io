@@ -64,7 +64,9 @@ h1 a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 150px;
 }
-
+.menucard:hover {
+    background-color: rgb(28, 194, 28);
+}
 .gallery {
     display: none;
     padding: 20px;
