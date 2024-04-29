@@ -134,3 +134,8 @@ a {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+
+header {
+    padding-left: 10px;
+    padding-right: 10px;
+}
